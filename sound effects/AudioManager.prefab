@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7282965361912375919
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7282965361912375913}
+  - component: {fileID: 7282965361912375912}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7282965361912375913
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7282965361912375919}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7282965361912375912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7282965361912375919}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e953bbd63c6916a479a49144000ad0f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: normal jump
+    clip: {fileID: 8300000, guid: b9e6b0c2f217ed544b591f3e4eca8982, type: 3}
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+  - name: long jump
+    clip: {fileID: 8300000, guid: 97182676ac1c1634fb5fad9b0e27377c, type: 3}
+    volume: 0.4
+    pitch: 1
+    source: {fileID: 0}
+  - name: short jump
+    clip: {fileID: 8300000, guid: b9e6b0c2f217ed544b591f3e4eca8982, type: 3}
+    volume: 0.25
+    pitch: 3
+    source: {fileID: 0}
+  - name: kill
+    clip: {fileID: 8300000, guid: 93e09ae03bd92a14e91c6a85fc77ae73, type: 3}
+    volume: 0.5
+    pitch: 0.8
+    source: {fileID: 0}
+  - name: fall
+    clip: {fileID: 8300000, guid: 16f63ec8c846ebb499d9802fac04511b, type: 3}
+    volume: 0.15
+    pitch: 1
+    source: {fileID: 0}
